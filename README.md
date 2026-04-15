@@ -34,4 +34,4 @@ I am a dedicated Flutter Mobile Developer focused on building scalable, high-per
 ---
 
 ## Contact & Professional Profiles
-[LinkedIn](https://www.linkedin.com/) | [Email](mailto:your-email@example.com)
+[LinkedIn](www.linkedin.com/in/mohamed-abdel-rahem-386125288) | [Email](mohamedar2002mail@gmail.com)
