@@ -1,266 +1,59 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                        HEADER SECTION                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=120&section=header&text=Mohamed%20Abdel-Rahem&fontSize=40&fontColor=ff6b6b&fontAlignY=40" width="100%"/>
 
-<!-- Animated Gradient Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Mohamed%20Abdel-Rahem&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Flutter%20Mobile%20Engineer%20%7C%20Architecture%20Enthusiast&descAlignY=58&descSize=16&descColor=ff6b6b" width="100%"/>
+  <img src="https://github.com/Mohamed-Abdel-Rahem.png" width="130" style="border-radius:50%; border: 3px solid #ff6b6b; box-shadow: 0 0 15px #ff6b6b; margin-top:-60px;"/>
 
-<!-- SVG Framed Profile Picture -->
-<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg" style="margin-top:-20px;">
-  <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#ff6b6b"/>
-      <stop offset="50%"  stop-color="#ee5a24"/>
-      <stop offset="100%" stop-color="#f9ca24"/>
-    </linearGradient>
-    <clipPath id="cp1">
-      <circle cx="65" cy="65" r="56"/>
-    </clipPath>
-  </defs>
-  <!-- Outer glow ring -->
-  <circle cx="65" cy="65" r="64" fill="url(#g1)" opacity="0.9"/>
-  <!-- Dark separator ring -->
-  <circle cx="65" cy="65" r="59" fill="#0d1117"/>
-  <!-- Profile image -->
-  <image href="https://github.com/Mohamed-Abdel-Rahem.png"
-         x="9" y="9" width="112" height="112"
-         clip-path="url(#cp1)"
-         preserveAspectRatio="xMidYMid slice"/>
-</svg>
+  <h3>🚀 Junior Flutter Developer | Architectural Purist</h3>
 
-<br/>
-
-<!-- Role Tagline -->
-<h3>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=480&lines=Junior+Flutter+Developer+%7C+Senior+Mindset;Clean+Architecture+%7C+SOLID+Principles;Building+Systems%2C+Not+Just+Apps." alt="Typing SVG"/>
-</h3>
-
-<!-- Contact Badges -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-abdel-rahem-386125288)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamedar2002mail@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201152619144)
-
+  <p>
+    <a href="https://www.linkedin.com/in/mohamed-abdel-rahem-386125288"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+    <a href="mailto:mohamedar2002mail@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    <a href="https://wa.me/201152619144"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+  </p>
 </div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                        ABOUT SECTION                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🧭 About Me
-
-```dart
-class MohamedAbdelRahem extends FlutterDeveloper {
-
-  final String currentFocus  = "Offline-First Architecture & Real-Time Sync";
-  final String philosophy    = "Learning to build scalable systems, not just apps.";
-  final bool   obsessedWith  = Clean Code && Architectural Patterns && SOLID;
-
-  List<String> get coreBeliefs => [
-    "Every layer in a system must have a deliberate reason to exist.",
-    "The UI is the least important part of an application.",
-    "Complexity that serves no domain purpose is disguised technical debt.",
-  ];
-
-  String get status => "Junior by title. Senior in discipline.";
-}
-```
-
-> I am a **self-taught Flutter engineer** who built my expertise through deep, deliberate study of world-class resources — not tutorials, but real system design. My goal is not to build apps that work. My goal is to build apps that **scale, maintain, and survive**.
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     TECHNICAL ARSENAL                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## ⚡ Technical Arsenal
-
-<div align="center">
-
-**— Core Platform —**
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-**— State Management —**
-
-![Riverpod](https://img.shields.io/badge/Riverpod-00B4D8?style=for-the-badge&logo=flutter&logoColor=white)
-![BLoC](https://img.shields.io/badge/BLoC-FF6B35?style=for-the-badge&logo=flutter&logoColor=white)
-![GetX](https://img.shields.io/badge/GetX-9B59B6?style=for-the-badge&logo=flutter&logoColor=white)
-
-**— Backend & Data —**
-
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=for-the-badge&logo=fastapi&logoColor=white)
-
-**— Tooling —**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    ENGINEERING FOCUS                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🏗️ Engineering Focus
-
-> *This is what separates me from a typical beginner.*
-
-| Competency | What I Actually Apply |
-|:---|:---|
-| 🧱 **Clean Architecture** | Strict 3-layer separation: `Domain → Data → Presentation`. Business logic never touches Flutter or Firebase directly. |
-| 🔷 **MVVM Pattern** | ViewModels isolate state logic. UI layers are purely reactive — no business decisions in widgets. |
-| 🔩 **SOLID Principles** | Applied at class and module level. Single responsibility, open extensions, injected dependencies. |
-| ♻️ **Repository Pattern** | All data sources (remote, local, cache) are hidden behind domain-owned interfaces. |
-| 📶 **Offline-First Logic** | Local SQLite is the source of truth. Network is a sync mechanism, not a hard dependency. |
-| ⚡ **Reactive Data Pipelines** | Firestore `snapshots()` streams consumed through repository contracts, never directly in UI. |
-| 🔐 **Dependency Inversion** | Constructor injection throughout. Zero hard dependencies on infrastructure from the domain layer. |
-| 🧪 **Testable by Design** | Use-case isolation makes logic unit-testable without a running device or network. |
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    PROJECT HIGHLIGHTS                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🚀 Project Highlights
-
-### 📦 SubPay — Subscription Management System
-
-> A production-grade subscription tracker built with real-time synchronization and offline persistence.
-
-| Dimension | Implementation |
-|:---|:---|
-| **Architecture** | Clean Architecture · MVVM · Repository Pattern |
-| **State Management** | Riverpod with Code Generation |
-| **Real-Time Sync** | Firebase Firestore stream listeners for live subscription updates |
-| **Offline Support** | SQLite local persistence with stale-while-revalidate caching |
-| **Auth** | Firebase Authentication with session management |
-| **Key Challenge** | Conflict resolution between local cache and Firestore during reconnection |
 
 ---
 
-### 🌿 Rayhana — Smart Home & Lifestyle App
+### 👨‍💻 About Me
+> I am a **Self-Taught Flutter Engineer** with a passion for building systems that are robust, testable, and maintainable. I don't just write UI; I design distributed client-side systems.
 
-> A feature-rich lifestyle application demonstrating advanced state orchestration and multi-source data management.
+* 🏆 **Key Achievement:** Successfully completed the **Digital Egypt Pioneers Initiative (DEPI)** - Advanced Flutter Track.
+* 🧠 **Philosophy:** "A UI is just a detail; the Domain Logic is the soul of the app."
+* 🌱 **Current Focus:** Master-level Offline-first data reconciliation and high-performance caching.
 
-| Dimension | Implementation |
-|:---|:---|
-| **Architecture** | Clean Architecture · Feature-First Module Structure |
-| **State Management** | BLoC for event-driven flows · Riverpod for global state |
-| **Data Layer** | Hybrid — REST API + Firebase with unified repository interface |
-| **Local Persistence** | SQLite with TTL-based cache invalidation strategy |
-| **Key Challenge** | Maintaining UI consistency across multiple async data streams |
+---
 
-<br/>
+### ⚡ Technical Arsenal
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    KEY ACHIEVEMENT                            -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+| Category | Technologies |
+| :--- | :--- |
+| **Mobile** | ![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white) |
+| **State Management** | ![Riverpod](https://img.shields.io/badge/-Riverpod-00B4D8?logo=flutter) ![BLoC](https://img.shields.io/badge/-BLoC-546E7A) |
+| **Backend & Cloud** | ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=black) ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?logo=supabase&logoColor=white) ![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?logo=cloudinary&logoColor=white) |
+| **Architecture** | `Clean Architecture` • `MVVM` • `SOLID` • `TDD` |
+| **Database** | ![SQLite](https://img.shields.io/badge/-SQLite-003B57?logo=sqlite) ![Firestore](https://img.shields.io/badge/-Firestore-FFCA28?logo=firebase) |
 
-## 🏅 Key Achievement
+---
 
+### 🏗️ Engineering Focus (Why hire me?)
+* **Architectural Discipline:** Strict separation between Data, Domain, and Presentation layers.
+* **Reactive Pipelines:** Mastery of Streams and asynchronous data flows using Firebase and Supabase.
+* **Offline Resilience:** Designing apps that function flawlessly without a network by using local SQLite as the source of truth.
+
+---
+
+### 📊 Engineering Metrics (Resolved)
 <div align="center">
-
-![DEPI](https://img.shields.io/badge/🏆%20Digital%20Egypt%20Pioneers%20Initiative%20(DEPI)-Advanced%20Flutter%20Track%20%7C%20Completed-ff6b6b?style=for-the-badge&labelColor=0d1117)
-
-*A national excellence program in Egypt selecting high-potential software engineers*
-*for advanced, industry-aligned development training.*
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                      GITHUB METRICS                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📊 GitHub Metrics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Abdel-Rahem&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=c9d1d9&ring_color=ff6b6b"/>
-&nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Abdel-Rahem&layout=compact&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&langs_count=6"/>
-
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Abdel-Rahem&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Abdel-Rahem&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&langs_count=6"/>
 </div>
 
 <div align="center">
-
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=Mohamed-Abdel-Rahem&theme=radical&hide_border=true&background=0d1117&ring=ff6b6b&fire=ff6b6b&currStreakLabel=ff6b6b&sideLabels=c9d1d9&dates=c9d1d9&sideNums=ff6b6b"/>
-
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Mohamed-Abdel-Rahem&theme=react-dark&bg_color=0d1117&color=ff6b6b&line=ff6b6b&point=ffffff&area=true&hide_border=true" />
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Mohamed-Abdel-Rahem&theme=react-dark&bg_color=0d1117&color=ff6b6b&line=ee5a24&point=f9ca24&area=true&hide_border=true" width="95%"/>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                   ENGINEERING PHILOSOPHY                      -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 💡 Engineering Philosophy
+---
 
 <div align="center">
-
-> *"A codebase that a new engineer cannot navigate in under an hour is a liability disguised as a system."*
-
-</div>
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    MY THREE LAWS                        │
-│                                                         │
-│  1. ISOLATE  →  Business logic never touches the UI.   │
-│  2. REACT    →  State is a stream, not a snapshot.     │
-│  3. SURVIVE  →  Offline is the baseline, not the edge. │
-└─────────────────────────────────────────────────────────┘
-```
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     CONTACT SECTION                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📬 Contact
-
-<div align="center">
-
-*Open to junior-to-mid Flutter roles, architectural mentorship, and collaborative open-source work.*
-
-| Channel | Details |
-|:---:|:---|
-| 💼 **LinkedIn** | [linkedin.com/in/mohamed-abdel-rahem-386125288](https://www.linkedin.com/in/mohamed-abdel-rahem-386125288) |
-| 📧 **Email** | [mohamedar2002mail@gmail.com](mailto:mohamedar2002mail@gmail.com) |
-| 💬 **WhatsApp** | [+20 115 261 9144](https://wa.me/201152619144) |
-| 🐙 **GitHub** | [github.com/Mohamed-Abdel-Rahem](https://github.com/Mohamed-Abdel-Rahem) |
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                        FOOTER                                 -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
-<div align="center">
-  <sub>Junior by title. Engineered by discipline. Built to scale.</sub>
+  <sub>Designed with intent. Engineered with discipline. 🚀</sub>
 </div>
