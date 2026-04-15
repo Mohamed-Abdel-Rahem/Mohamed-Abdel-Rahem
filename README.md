@@ -19,11 +19,8 @@
       <circle cx="65" cy="65" r="56"/>
     </clipPath>
   </defs>
-  <!-- Outer glow ring -->
   <circle cx="65" cy="65" r="64" fill="url(#g1)" opacity="0.9"/>
-  <!-- Dark separator ring -->
   <circle cx="65" cy="65" r="59" fill="#0d1117"/>
-  <!-- Profile image -->
   <image href="https://github.com/Mohamed-Abdel-Rahem.png"
          x="9" y="9" width="112" height="112"
          clip-path="url(#cp1)"
@@ -81,29 +78,38 @@ class MohamedAbdelRahem extends FlutterDeveloper {
 
 <div align="center">
 
-**— Core Platform —**
+**— Languages —**
+
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**— Core Framework —**
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 **— State Management —**
 
 ![Riverpod](https://img.shields.io/badge/Riverpod-00B4D8?style=for-the-badge&logo=flutter&logoColor=white)
 ![BLoC](https://img.shields.io/badge/BLoC-FF6B35?style=for-the-badge&logo=flutter&logoColor=white)
-![GetX](https://img.shields.io/badge/GetX-9B59B6?style=for-the-badge&logo=flutter&logoColor=white)
+![Provider](https://img.shields.io/badge/Provider-7B61FF?style=for-the-badge&logo=flutter&logoColor=white)
 
-**— Backend & Data —**
+**— Backend & Cloud —**
 
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-FF6B6B?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**— Tooling —**
+**— Tooling & Development —**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-FF6B6B?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
@@ -131,37 +137,55 @@ class MohamedAbdelRahem extends FlutterDeveloper {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    PROJECT HIGHLIGHTS                         -->
+<!--              ENGINEERING COMPETENCIES & ARCHITECTURE          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 🚀 Project Highlights
+## ⚙️ Engineering Competencies & System Architecture
 
-### 📦 SubPay — Subscription Management System
-
-> A production-grade subscription tracker built with real-time synchronization and offline persistence.
-
-| Dimension | Implementation |
-|:---|:---|
-| **Architecture** | Clean Architecture · MVVM · Repository Pattern |
-| **State Management** | Riverpod with Code Generation |
-| **Real-Time Sync** | Firebase Firestore stream listeners for live subscription updates |
-| **Offline Support** | SQLite local persistence with stale-while-revalidate caching |
-| **Auth** | Firebase Authentication with session management |
-| **Key Challenge** | Conflict resolution between local cache and Firestore during reconnection |
+> *Not what I have built — but **how** I build.*
 
 ---
 
-### 🌿 Rayhana — Smart Home & Lifestyle App
+### 🗄️ Data Flow & Multi-Source Management
 
-> A feature-rich lifestyle application demonstrating advanced state orchestration and multi-source data management.
+```
+[ Remote Sources ]         [ Local Persistence ]      [ UI Layer ]
+  Firebase Firestore   ──►                        ──►
+  Supabase PostgreSQL  ──►   Repository Layer     ──►  ViewModel / Provider
+  REST Endpoints       ──►   (Unified Contract)   ──►
+                             SQLite Cache         ──►
+```
 
-| Dimension | Implementation |
-|:---|:---|
-| **Architecture** | Clean Architecture · Feature-First Module Structure |
-| **State Management** | BLoC for event-driven flows · Riverpod for global state |
-| **Data Layer** | Hybrid — REST API + Firebase with unified repository interface |
-| **Local Persistence** | SQLite with TTL-based cache invalidation strategy |
-| **Key Challenge** | Maintaining UI consistency across multiple async data streams |
+- **Firebase Firestore** handles real-time document synchronization through persistent stream listeners — the UI reacts to emissions, never polls.
+- **Supabase** serves structured relational data needs (row-level security, PostgreSQL queries) via typed repository interfaces that the domain layer is never aware of directly.
+- **SQLite** acts as the ground truth for offline-capable features. On reconnection, a reconciliation strategy compares local state against the remote source — conflict resolution is handled at the data layer, invisible to the UI.
+- **Caching discipline:** TTL-based invalidation and stale-while-revalidate patterns ensure the user always sees data — even during network failure.
+
+---
+
+### 🖼️ Media Optimization via Cloudinary
+
+- All media assets (images, documents, thumbnails) are routed through **Cloudinary's delivery pipeline** rather than stored as raw blobs in the database.
+- Transformation parameters (resize, format conversion, quality compression) are applied at the URL level — no client-side processing, no bloated storage.
+- Lazy-loading and progressive rendering are coordinated with Flutter's `CachedNetworkImage` to ensure fast perceived performance on slow connections.
+- This approach decouples media concerns from application logic — a dedicated `MediaRepository` handles all Cloudinary interactions, exposing clean typed methods to the domain.
+
+---
+
+### 🔄 State Orchestration Strategy
+
+| Layer | Tool | Responsibility |
+|:---|:---|:---|
+| **Global App State** | Riverpod (Code Gen) | Auth session, user preferences, DI graph |
+| **Feature State** | Riverpod `AsyncNotifier` | Async data loading, error & loading states |
+| **Complex Event Flows** | BLoC / Cubit | Multi-step forms, paginated lists, event queues |
+| **Lightweight Local State** | Provider | Simple widget-scoped state without boilerplate |
+| **UI Contract** | `sealed` classes | Exhaustive state mapping: `Loading / Success / Failure` |
+
+- **Riverpod** manages the application-wide dependency graph and all asynchronous data streams. Code generation (`@riverpod`) eliminates runtime provider mismatches and produces compile-safe provider references.
+- **BLoC** is reserved for flows that benefit from strict event/state separation — where auditability and testability of every transition matters.
+- **Provider** handles lightweight, widget-scoped state where Riverpod's full power would introduce unnecessary overhead.
+- Every consumable state is modeled as a `sealed` class — the UI is forced to handle every possible outcome at compile time. No silent failures.
 
 <br/>
 
@@ -190,9 +214,9 @@ class MohamedAbdelRahem extends FlutterDeveloper {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Abdel-Rahem&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=c9d1d9&ring_color=ff6b6b"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mohamed-Abdel-Rahem&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&icon_color=ff6b6b&text_color=c9d1d9&ring_color=ff6b6b&cache_seconds=1800"/>
 &nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Abdel-Rahem&layout=compact&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&langs_count=6"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Abdel-Rahem&layout=compact&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=ff6b6b&text_color=c9d1d9&langs_count=6&cache_seconds=1800"/>
 
 </div>
 
