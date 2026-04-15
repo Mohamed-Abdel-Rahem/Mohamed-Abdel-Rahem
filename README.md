@@ -1,14 +1,37 @@
-# Hi there, I'm [Your Name] 
-### Flutter Mobile Developer | Software Architecture Enthusiast
+# Mohamed Abdel Rahem
+### Flutter Mobile Developer | Software Architecture & Clean Code
 
-- 📱 Working on advanced mobile solutions with Flutter & Dart.
-- 🏗️ Focused on Clean Architecture, MVVM, and scalable code.
-- ☁️ Experienced in Firebase integration and real-time data.
+---
 
-### Tech Stack
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+## About Me
+I am a dedicated Flutter Mobile Developer focused on building scalable, high-performance applications. I specialize in crafting clean, maintainable code using modern architectural patterns and state management solutions.
 
-### GitHub Stats
-![Your Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+- 📱 Expertise in **Flutter & Dart** for cross-platform development.
+- 🏗️ Strong advocate for **Clean Architecture**, **MVVM**, and **SOLID** principles.
+- ☁️ Proficient in **Firebase** ecosystem (Firestore, Auth, Cloud Functions).
+- 🚀 Committed to optimizing app performance and offline-first experiences.
+
+---
+
+## Technical Skills
+
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Frameworks** | Flutter, Dart |
+| **State Management** | Riverpod, BLoC, GetX |
+| **Backend / Database** | Firebase, Firestore, SQLite |
+| **Architecture** | Clean Architecture, MVVM, MVC |
+| **Tools** | Git, GitHub, Android Studio, VS Code |
+
+---
+
+## GitHub Statistics
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohamed-Abdel-Rahem&show_icons=true&theme=radical&hide_border=true" alt="Mohamed's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohamed-Abdel-Rahem&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## Contact & Professional Profiles
+[LinkedIn](https://www.linkedin.com/) | [Email](mailto:your-email@example.com)
