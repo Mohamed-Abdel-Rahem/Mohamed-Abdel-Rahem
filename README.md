@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi there, I'm [Your Name] 
+### Flutter Mobile Developer | Software Architecture Enthusiast
 
-<!--
-**Mohamed-Abdel-Rahem/Mohamed-Abdel-Rahem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 📱 Working on advanced mobile solutions with Flutter & Dart.
+- 🏗️ Focused on Clean Architecture, MVVM, and scalable code.
+- ☁️ Experienced in Firebase integration and real-time data.
 
-Here are some ideas to get you started:
+### Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### GitHub Stats
+![Your Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
