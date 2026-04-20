@@ -74,7 +74,7 @@ class MohamedAbdelRahem extends FlutterDeveloper {
 <!--                     TECHNICAL ARSENAL                         -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## ⚡ Technical Arsena
+## ⚡ Technical Arsenal
 
 <div align="center">
 
